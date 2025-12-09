@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Financial Anomaly Engine",
+  "id": "eda-fin-anomaly-ds",
+  "metrics": true,
+  "backend": false,
+  "executable": "",
+  "info": {
+    "description": "Synthetic financial market anomaly signals generator with advanced mathematical patterns",
+    "author": {
+      "name": "Eda Kizilarmut",
+      "url": "https://github.com/edakizilarmut"
+    },
+    "keywords": [
+      "financial",
+      "anomaly",
+      "market",
+      "synthetic",
+      "volatility",
+      "spike detection"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/edakizilarmut/grafana-financial-anomaly-datasource"
+      }
+    ],
+    "screenshots": [],
+    "version": "1.0.0",
+    "updated": "2025-11-26"
+  },
+  "category": "tsdb",
+  "annotations": false,
+  "alerting": false,
+  "logs": false,
+  "streaming": false,
+  "routes": [],
+  "dependencies": {
+    "grafanaDependency": ">=9.0.0",
+    "plugins": []
+  }
+}

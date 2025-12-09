@@ -1,0 +1,37 @@
+{
+  "name": "eda-financial-anomaly-datasource",
+  "version": "1.0.0",
+  "description": "Financial Market Anomaly Engine - Synthetic anomaly-driven market signals for Grafana",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack --config webpack.config.js --mode development --watch",
+    "test": "echo \"No tests configured yet\"",
+    "watch": "webpack --config webpack.config.js --mode development --watch",
+    "sign": "npx @grafana/sign-plugin@latest"
+  },
+  "author": "Eda Kizilarmut",
+  "license": "MIT",
+  "devDependencies": {
+    "@grafana/data": "^10.0.0",
+    "@grafana/runtime": "^10.0.0",
+    "@grafana/ui": "^10.0.0",
+    "@types/lodash": "^4.14.195",
+    "@types/react": "^18.2.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "fork-ts-checker-webpack-plugin": "^8.0.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.0.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
